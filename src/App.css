@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  background-color: #F2E0CF;
 }
 
 .App-logo {
@@ -12,6 +14,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +38,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.image{
+  width: 100%;
+  align-items: flex-start;
+  position: relative;
+}
+
+.heading{
+  position: fixed;
+  z-index: 2;
+  margin-left: 10%;
+  margin-top: 2%;
+  width: 10%;
+  height: 12%;
+}
+
+.sidebar{
+  position: relative;
+  font-family: "Apercu", sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  padding-left: 15%;
+  padding-top: 10%;
 }
